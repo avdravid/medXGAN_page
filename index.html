@@ -194,7 +194,14 @@
 		<table align=center width=850px>
 			<tr>
 				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
+					Figure 1. Overview. We propose a GAN framework medXGAN that takes in two latent vectors (z1, z2) to encode anatomical structure and classifier-specific pathology, respectively. After
+training with a fixed classifier providing feedback, the generator
+can be used to explain the classifier’s decision. Given a ground
+truth positive image, the latent code can be found via an optimization scheme. The positive image then can be turned into a negative
+realization by relying on the medXGAN’s latent sampling scheme.
+The classifier-specific features can be visualized via a pixel-wise
+difference between the negative and positive images or by integrating the gradients (IG) by traversing the latent space (LIG).
+
 				</td>
 			</tr>
 		</table>
