@@ -1,6 +1,7 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
+@inproceedings{dravid2022medxgan,
+  title={medXGAN: Visual Explanations for Medical Classifiers through a Generative Latent Space},
+  author={Dravid, Amil and Schiffers, Florian and Gong, Boqing and Katsaggelos, Aggelos K},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  pages={2936--2945},
+  year={2022}
 }
